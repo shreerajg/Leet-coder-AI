@@ -1,0 +1,82 @@
+{
+  "manifest_version": 3,
+  "name": "DSA Mentor AI",
+  "version": "1.0.0",
+  "description": "Your AI mentor for algorithmic thinking on LeetCode. Progressive hints, multi-approach explanations, and structured learning without leaving the editor.",
+  "author": "DSA Mentor AI",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "DSA Mentor AI"
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "service-worker-loader.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "assets/index.tsx-loader-BDNu5wy6.js"
+      ],
+      "matches": [
+        "https://leetcode.com/problems/*",
+        "https://leetcode.cn/problems/*"
+      ],
+      "css": [
+        "src/content/content.css",
+        "assets/index-YDNHFNw9.css"
+      ],
+      "run_at": "document_idle",
+      "all_frames": false
+    }
+  ],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "https://leetcode.cn/*",
+    "https://*/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://leetcode.cn/*",
+        "https://leetcode.com/*"
+      ],
+      "resources": [
+        "icons/*",
+        "assets/*",
+        "assets/storage.service-BZ7ez0AA.js",
+        "assets/index-B52gC4lJ.js",
+        "assets/constants-D9UwGLHV.js",
+        "assets/index.tsx-C6tr6WRP.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ],
+  "commands": {
+    "toggle-panel": {
+      "suggested_key": {
+        "default": "Alt+Shift+A",
+        "mac": "Alt+Shift+A"
+      },
+      "description": "Toggle DSA Mentor AI panel"
+    }
+  }
+}

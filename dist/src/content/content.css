@@ -1,0 +1,88 @@
+/* DSA Mentor AI — Content Script Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+/* Scoped to our host element */
+#dsa-mentor-ai-host {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+#dsa-mentor-ai-host * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Highlight.js theme (GitHub Dark) */
+#dsa-mentor-ai-host .hljs {
+  background: #0d1117;
+  color: #c9d1d9;
+}
+#dsa-mentor-ai-host .hljs-keyword { color: #ff7b72; }
+#dsa-mentor-ai-host .hljs-string { color: #a5d6ff; }
+#dsa-mentor-ai-host .hljs-comment { color: #8b949e; font-style: italic; }
+#dsa-mentor-ai-host .hljs-number { color: #79c0ff; }
+#dsa-mentor-ai-host .hljs-function { color: #d2a8ff; }
+#dsa-mentor-ai-host .hljs-built_in { color: #ffa657; }
+#dsa-mentor-ai-host .hljs-variable { color: #ffa657; }
+#dsa-mentor-ai-host .hljs-title { color: #d2a8ff; }
+#dsa-mentor-ai-host .hljs-class { color: #ffa657; }
+#dsa-mentor-ai-host .hljs-type { color: #79c0ff; }
+#dsa-mentor-ai-host .hljs-attr { color: #79c0ff; }
+#dsa-mentor-ai-host .hljs-literal { color: #79c0ff; }
+
+/* Scrollbar */
+#dsa-mentor-ai-host ::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+#dsa-mentor-ai-host ::-webkit-scrollbar-track {
+  background: transparent;
+}
+#dsa-mentor-ai-host ::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+#dsa-mentor-ai-host ::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Hide scrollbar utility */
+#dsa-mentor-ai-host .scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#dsa-mentor-ai-host .scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Tailwind base reset */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thinking animation */
+@keyframes thinking {
+  0%, 80%, 100% { transform: scale(0); opacity: 0.3; }
+  40% { transform: scale(1); opacity: 1; }
+}
+.animate-thinking {
+  animation: thinking 1.4s ease-in-out infinite;
+}
+
+/* Fade in */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-fade-in {
+  animation: fadeIn 0.25s ease-out;
+}
+
+/* Cursor blink */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.animate-cursor {
+  animation: blink 1s step-end infinite;
+}
