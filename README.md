@@ -5,7 +5,7 @@ This is a chrome extension that helps with lead code problem solving and logic b
 
 
 
-## Step 4: Load in Chrome
+## Step 1: Load in Chrome
 
 1. Open Chrome and go to: `chrome://extensions`
 2. Enable **Developer mode** (toggle in the top-right corner)
@@ -17,7 +17,7 @@ You should see "DSA Mentor AI" appear in your extensions list with the robot ico
 
 ---
 
-## Step 5: Configure Your API Key
+## Step 2: Configure Your API Key
 
 1. Click the DSA Mentor AI icon in your Chrome toolbar
 2. Click **Open Settings ⚙**
@@ -37,7 +37,7 @@ You should see "DSA Mentor AI" appear in your extensions list with the robot ico
 
 ---
 
-## Step 6: Start Using It
+## Step 3: Start Using It
 
 1. Go to any LeetCode problem, e.g.:
    `https://leetcode.com/problems/two-sum/`
