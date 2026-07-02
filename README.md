@@ -3,7 +3,8 @@ This is a chrome extension that helps with lead code problem solving and logic b
 
 
 
-
+## Step 0: turn on developer mode in right top
+   and select load package from left
 
 ## Step 1: Load in Chrome
 
