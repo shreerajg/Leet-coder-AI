@@ -28,7 +28,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/index.tsx-loader-BDNu5wy6.js"
+        "assets/index.tsx-loader-ncVrIJBx.js"
       ],
       "matches": [
         "https://leetcode.com/problems/*",
@@ -36,7 +36,7 @@
       ],
       "css": [
         "src/content/content.css",
-        "assets/index-YDNHFNw9.css"
+        "assets/index-DYV3OH8O.css"
       ],
       "run_at": "document_idle",
       "all_frames": false
@@ -62,10 +62,10 @@
       "resources": [
         "icons/*",
         "assets/*",
-        "assets/storage.service-BZ7ez0AA.js",
-        "assets/index-B52gC4lJ.js",
+        "assets/storage.service-BN6iFE2h.js",
+        "assets/index-DmeQ_EJM.js",
         "assets/constants-D9UwGLHV.js",
-        "assets/index.tsx-C6tr6WRP.js"
+        "assets/index.tsx-TJAUAhE-.js"
       ],
       "use_dynamic_url": false
     }
