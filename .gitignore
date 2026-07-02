@@ -1,5 +1,5 @@
 node_modules/
-dist/
+
 .env
 .env.local
 *.local
@@ -22,3 +22,4 @@ tsconfig.json
 tsconfig.node.json
 vite.config.ts
 postcss.config.js
+public
