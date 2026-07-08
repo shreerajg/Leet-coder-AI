@@ -27,16 +27,16 @@
   },
   "content_scripts": [
     {
-      "js": [
-        "assets/index.tsx-loader-xiS9ezod.js"
-      ],
       "matches": [
         "https://leetcode.com/problems/*",
         "https://leetcode.cn/problems/*"
       ],
+      "js": [
+        "vendor/crx-content-css-0-loader.js",
+        "src/content/index.tsx-loader.js"
+      ],
       "css": [
-        "src/content/content.css",
-        "assets/index-C3PModJC.css"
+        "src/content/content.css"
       ],
       "run_at": "document_idle",
       "all_frames": false
@@ -55,17 +55,22 @@
   ],
   "web_accessible_resources": [
     {
-      "matches": [
-        "https://leetcode.cn/*",
-        "https://leetcode.com/*"
-      ],
       "resources": [
         "icons/*",
-        "assets/*",
-        "assets/storage.service-BN6iFE2h.js",
-        "assets/index-DmeQ_EJM.js",
-        "assets/constants-D9UwGLHV.js",
-        "assets/index.tsx--1NZ_AOG.js"
+        "assets/*"
+      ],
+      "matches": [
+        "https://leetcode.com/*",
+        "https://leetcode.cn/*"
+      ]
+    },
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "**/*",
+        "*"
       ],
       "use_dynamic_url": false
     }

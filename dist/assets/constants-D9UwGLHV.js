@@ -1,1 +1,0 @@
-const e=320,r=700,a=480,s="Alt+Shift+A",t={Easy:"text-emerald-400",Medium:"text-amber-400",Hard:"text-rose-400",Unknown:"text-gray-400"},o={Easy:"bg-emerald-400/10 border-emerald-400/20",Medium:"bg-amber-400/10 border-amber-400/20",Hard:"bg-rose-400/10 border-rose-400/20",Unknown:"bg-gray-400/10 border-gray-400/20"};export{t as D,s as K,a as P,r as a,e as b,o as c};
