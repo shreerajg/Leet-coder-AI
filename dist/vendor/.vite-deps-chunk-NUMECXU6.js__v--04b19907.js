@@ -1,9 +1,9 @@
 import {
   require_react
-} from "/vendor/.vite-deps-chunk-RLJ2RCJQ.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-RLJ2RCJQ.js__v--04b19907.js";
 import {
   __commonJS
-} from "/vendor/.vite-deps-chunk-DC5AMYBS.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-DC5AMYBS.js__v--04b19907.js";
 
 // node_modules/scheduler/cjs/scheduler.development.js
 var require_scheduler_development = __commonJS({

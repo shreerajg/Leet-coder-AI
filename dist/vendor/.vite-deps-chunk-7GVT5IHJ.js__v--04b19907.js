@@ -1,6 +1,6 @@
 import {
   __publicField
-} from "/vendor/.vite-deps-chunk-DC5AMYBS.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-DC5AMYBS.js__v--04b19907.js";
 
 // node_modules/devlop/lib/development.js
 var AssertionError = class extends Error {

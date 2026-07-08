@@ -1,4 +1,4 @@
-const crxClientPortName = `@crx/client:${"vmunAtdk-aaE"}`;
+const crxClientPortName = `@crx/client:${"9R27ZDp2CMoE"}`;
 function hasOwnExtensionRuntime(runtime2, extensionId2) {
   try {
     return new URL(runtime2.getURL("")).host === extensionId2;

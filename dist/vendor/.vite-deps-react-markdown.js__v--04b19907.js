@@ -1,9 +1,9 @@
 import {
   require_jsx_runtime
-} from "/vendor/.vite-deps-chunk-S725DACQ.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-S725DACQ.js__v--04b19907.js";
 import {
   require_react
-} from "/vendor/.vite-deps-chunk-RLJ2RCJQ.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-RLJ2RCJQ.js__v--04b19907.js";
 import {
   attention,
   autolink,
@@ -44,17 +44,17 @@ import {
   toString,
   types,
   values
-} from "/vendor/.vite-deps-chunk-DZ2CJRVT.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-DZ2CJRVT.js__v--04b19907.js";
 import {
   ok,
   unreachable,
   visit
-} from "/vendor/.vite-deps-chunk-7GVT5IHJ.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-7GVT5IHJ.js__v--04b19907.js";
 import {
   __commonJS,
   __export,
   __toESM
-} from "/vendor/.vite-deps-chunk-DC5AMYBS.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-DC5AMYBS.js__v--04b19907.js";
 
 // node_modules/inline-style-parser/cjs/index.js
 var require_cjs = __commonJS({

@@ -1,6 +1,6 @@
 import {
   ok
-} from "/vendor/.vite-deps-chunk-7GVT5IHJ.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-7GVT5IHJ.js__v--04b19907.js";
 
 // node_modules/micromark-util-symbol/lib/codes.js
 var codes = (

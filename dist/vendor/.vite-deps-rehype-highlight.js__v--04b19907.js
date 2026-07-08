@@ -2,11 +2,11 @@ import {
   convert,
   ok,
   visit
-} from "/vendor/.vite-deps-chunk-7GVT5IHJ.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-7GVT5IHJ.js__v--04b19907.js";
 import {
   __commonJS,
   __toESM
-} from "/vendor/.vite-deps-chunk-DC5AMYBS.js__v--d0323f10.js";
+} from "/vendor/.vite-deps-chunk-DC5AMYBS.js__v--04b19907.js";
 
 // node_modules/highlight.js/lib/core.js
 var require_core = __commonJS({

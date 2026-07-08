@@ -1,4 +1,4 @@
-import "/vendor/.vite-deps-chunk-DC5AMYBS.js__v--d0323f10.js";
+import "/vendor/.vite-deps-chunk-DC5AMYBS.js__v--04b19907.js";
 
 // node_modules/clsx/dist/clsx.mjs
 function r(e) {
